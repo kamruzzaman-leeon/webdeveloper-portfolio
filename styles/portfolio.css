@@ -194,4 +194,27 @@ footer{
     display: flex;
     background-color: #fff8f3;
     padding: 130px 200px; 
+    gap: 100px;
+}
+
+
+.footer-column{
+    width: 50%;
+}
+
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    font-size: 16px;
+    color: #757575;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 0px;
+    width:100%
+    
+}
+
+.social-links a{
+    margin-right: 25px;
 }
